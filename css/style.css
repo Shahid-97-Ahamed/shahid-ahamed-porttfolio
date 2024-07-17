@@ -12,6 +12,12 @@
 /* Nav Section Start */
 
 /* Nav Styles */
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -47,3 +53,33 @@ nav li a{
 }
 
 /* Nav Section End */
+
+/* Banner Section Start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+
+
+.banner-grittengs{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-titel{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+}
+.banner-profile{
+    width: 580px;
+}
+
+/* Banner Section Ens */
