@@ -21,6 +21,9 @@
 .sec-bg{
     background-color: #FFF8F3;
 }
+.text-center{
+    text-align: center;
+}
 /* Nav Section Start */
 
 /* Nav Styles */
@@ -101,6 +104,10 @@ nav li a{
 max-width: 1140px;
 margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* main style css ends */
 
@@ -108,7 +115,6 @@ margin: 0 auto;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 .about-items{
     display: flex;
@@ -117,3 +123,14 @@ margin: 0 auto;
 .item-description{
     font-weight: 600;
 }
+/* What Can I Do style Start */
+.skills-contener{
+    display: flex;
+    gap: 24px;
+} 
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* What Can I Do style Ends */
